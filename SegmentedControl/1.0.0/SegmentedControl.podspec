@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.source_files = 'SegmentedControl/*.swift', 'SegmentedControl/Segments/*.swift', 'SegmentedControl/Protocols/*.swift', 'SegmentedControl/Delegates/*.swift', 'SegmentedControl/Options/*.swift'
 
   s.frameworks = 'UIKit', 'CoreGraphics'
-  s.module_name = 'Sprinkle_IOS_SegmentedControl'
+  s.module_name = 'SBSegmentedControl'
 end
