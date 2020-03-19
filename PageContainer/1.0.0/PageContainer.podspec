@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.source_files = 'PageContainer/*.swift', 'PageContainer/DataSource/*.swift', 'PageContainer/Protocols/PageContainerDataProviding/*.swift', 'PageContainer/Delegate/*.swift'
 
   s.frameworks = 'UIKit'
-  s.module_name = 'SBMarksCloud'
+  s.module_name = 'SBPageContainer'
   
   s.dependency 'SegmentedControl'
   
