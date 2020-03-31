@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '10.0'
   s.requires_arc = true
 
-  s.source_files = 'SegmentedControl/*.swift', 'SegmentedControl/Segments/*.swift', 'SegmentedControl/Protocols/*.swift', 'SegmentedControl/Delegates/*.swift', 'SegmentedControl/Options/*.swift'
+  s.source_files = 'SprinklePrivateComponents/iosSegmentedControl/SegmentedControl/*.swift', 'SprinklePrivateComponents/iosSegmentedControl/SegmentedControl/Segments/*.swift', 'SprinklePrivateComponents/iosSegmentedControl/SegmentedControl/Protocols/*.swift', 'SprinklePrivateComponents/iosSegmentedControl/SegmentedControl/Delegates/*.swift', 'SprinklePrivateComponents/iosSegmentedControl/SegmentedControl/Options/*.swift'
 
   s.frameworks = 'UIKit', 'CoreGraphics'
   s.module_name = 'SBSegmentedControl'
